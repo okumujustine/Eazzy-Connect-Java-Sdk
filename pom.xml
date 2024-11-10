@@ -20,11 +20,6 @@
             <name>EazzyConnectSdk</name>
             <url>https://maven.pkg.github.com/okumujustine/eazzyconnect-java</url>
         </repository>
-<!--        <snapshotRepository>-->
-<!--            <id>github</id>-->
-<!--            <name>EazzyConnectSdk</name>-->
-<!--            <url>https://maven.pkg.github.com/okumujustine/Eazzy-Connect-Java-Sdk</url>-->
-<!--        </snapshotRepository>-->
     </distributionManagement>
     <dependencies>
         <dependency>
