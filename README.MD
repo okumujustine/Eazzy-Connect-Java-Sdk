@@ -78,9 +78,7 @@ SMS sending is facilitated
 #### Check Wallet Balance
 
 ```java
-String walletNumber = "WL-0000x";
-
-EazzyApiResponse response = EazzyWallet.getBalance(walletNumber);
+EazzyApiResponse response = EazzyWallet.getBalance();
 System.out.println(response);
 ```
 
@@ -112,12 +110,12 @@ Sends the same SMS message to multiple contacts.
 
 ### EazzyWallet Class
 
-#### `getBalance(String walletNumber)`
+#### `getBalance()`
 
 Retrieves the balance for a specified wallet.
 
 **Parameters:**
-- `walletNumber` (String): The wallet number to check
+- no parameter
 
 **Returns:**
 - `EazzyApiResponse`: Response object containing the wallet balance information
@@ -144,7 +142,7 @@ public class Main {
         System.out.println(bulkSms);
 
         // Wallet actions
-        EazzyApiResponse balance = EazzyWallet.getBalance("WL-00004");
+        EazzyApiResponse balance = EazzyWallet.getBalance();
         System.out.println(balance);
     }
 }
@@ -155,5 +153,5 @@ public class Main {
 For additional information and support, please visit [EazzyConnect website](https://eazzyconnect.com/).
 
 ## License
-
-[Include your license information here]
+<hr/>
+This project is licensed under the terms of the MIT license.
