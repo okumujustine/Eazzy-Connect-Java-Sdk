@@ -118,7 +118,7 @@ Retrieves the balance for a specified wallet.
 - no parameter
 
 **Returns:**
-- `EazzyApiResponse`: Response object containing the wallet balance accessible from `EazzyApiResponse.getData()`
+- `EazzyApiResponse`: Response object containing the wallet balance accessible from the `.getData()` method.
 
 ## Complete Example
 
