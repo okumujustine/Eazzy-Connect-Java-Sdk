@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.eazzyconnect</groupId>
-    <artifactId>EazzyConnectSdk</artifactId>
+    <artifactId>eazzyconnectsdk</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 
     <properties>
@@ -17,9 +17,14 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>Github EazzyConnectSdk Apache Maven Packages</name>
+            <name>EazzyConnectSdk</name>
             <url>https://maven.pkg.github.com/okumujustine/Eazzy-Connect-Java-Sdk</url>
         </repository>
+<!--        <snapshotRepository>-->
+<!--            <id>github</id>-->
+<!--            <name>EazzyConnectSdk</name>-->
+<!--            <url>https://maven.pkg.github.com/okumujustine/Eazzy-Connect-Java-Sdk</url>-->
+<!--        </snapshotRepository>-->
     </distributionManagement>
     <dependencies>
         <dependency>
