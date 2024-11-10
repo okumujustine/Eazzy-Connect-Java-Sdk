@@ -38,6 +38,6 @@ jobs:
       if: github.event.release != null
       uses: softprops/action-gh-release@v1
       with:
-        files: target/eazzyconnectsdk-0.1.0.jar
+        files: target/eazzyconnectsdk-0.1.3.jar
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
