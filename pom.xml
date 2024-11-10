@@ -18,7 +18,7 @@
         <repository>
             <id>github</id>
             <name>EazzyConnectSdk</name>
-            <url>https://maven.pkg.github.com/okumujustine/REPOSITORY/Eazzy-Connect-Java-Sdk</url>
+            <url>https://maven.pkg.github.com/okumujustine/Eazzy-Connect-Java-Sdk</url>
         </repository>
         <site>
             <id>com.eazzyconnect</id>
