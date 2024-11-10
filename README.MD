@@ -95,7 +95,7 @@ Sends an SMS to a single contact.
 - `message` (String): The message content to be sent
 
 **Returns:**
-- `EazzyApiResponse`: Response object containing the API response
+- `EazzyApiResponse`: Response object containing the API response with the properties. `statusCode` String, `success` boolean and `data` String.
 
 #### `sendBulkSms(String[] phoneNumbers, String message)`
 
@@ -106,7 +106,7 @@ Sends the same SMS message to multiple contacts.
 - `message` (String): The message content to be sent to all recipients
 
 **Returns:**
-- `EazzyApiResponse`: Response object containing the API response
+- `EazzyApiResponse`: Response object containing the API response with the properties. `statusCode` String, `success` boolean and `data` String.
 
 ### EazzyWallet Class
 
@@ -118,7 +118,7 @@ Retrieves the balance for a specified wallet.
 - no parameter
 
 **Returns:**
-- `EazzyApiResponse`: Response object containing the wallet balance information
+- `EazzyApiResponse`: Response object containing the wallet balance accessible from `EazzyApiResponse.getData()`
 
 ## Complete Example
 
