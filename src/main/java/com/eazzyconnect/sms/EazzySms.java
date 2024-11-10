@@ -37,7 +37,6 @@ public class EazzySms {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             String json = objectMapper.writeValueAsString(sendSmsRequestBody);
-            System.out.println(json);
 
             HttpRequest sendSmsRequest = HttpRequest.newBuilder()
                     .uri(new URI(url))
