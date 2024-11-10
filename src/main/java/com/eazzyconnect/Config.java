@@ -1,4 +1,4 @@
-package org.example;
+package com.eazzyconnect;
 import io.github.cdimascio.dotenv.Dotenv;
 
 public class Config {

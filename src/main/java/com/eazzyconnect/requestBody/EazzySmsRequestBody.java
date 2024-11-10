@@ -1,4 +1,4 @@
-package org.example.requestBody;
+package com.eazzyconnect.requestBody;
 
 public class EazzySmsRequestBody {
     private String phone_number;

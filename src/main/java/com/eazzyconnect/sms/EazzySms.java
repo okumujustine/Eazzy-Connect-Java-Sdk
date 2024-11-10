@@ -1,11 +1,11 @@
-package org.example.sms;
+package com.eazzyconnect.sms;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.Config;
-import org.example.EazzyApiResponse;
-import org.example.requestBody.EazzyBulkSmsRequestBody;
-import org.example.requestBody.EazzySmsRequestBody;
+import com.eazzyconnect.Config;
+import com.eazzyconnect.EazzyApiResponse;
+import com.eazzyconnect.requestBody.EazzyBulkSmsRequestBody;
+import com.eazzyconnect.requestBody.EazzySmsRequestBody;
 
 import java.net.URI;
 import java.net.http.HttpClient;

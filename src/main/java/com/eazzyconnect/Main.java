@@ -1,7 +1,6 @@
-package org.example;
+package com.eazzyconnect;
 
-import org.example.sms.EazzySms;
-import org.example.wallet.EazzyWallet;
+import com.eazzyconnect.wallet.EazzyWallet;
 
 public class Main {
     public static void main(String[] args) {

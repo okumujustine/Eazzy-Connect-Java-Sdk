@@ -1,4 +1,4 @@
-package org.example;
+package com.eazzyconnect;
 
 public class EazzyApiResponse {
     private boolean success;

@@ -1,9 +1,9 @@
-package org.example.wallet;
+package com.eazzyconnect.wallet;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.Config;
-import org.example.EazzyApiResponse;
+import com.eazzyconnect.Config;
+import com.eazzyconnect.EazzyApiResponse;
 
 import java.net.URI;
 import java.net.http.HttpClient;
