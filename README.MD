@@ -74,7 +74,7 @@ System.out.println(response);
 ```
 
 ### Wallet Operations
-SMS sending is facilitated 
+
 #### Check Wallet Balance
 
 ```java
