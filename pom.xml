@@ -23,7 +23,7 @@
         <site>
             <id>com.eazzyconnect</id>
             <name>EazzyConnectSdk</name>
-            <url>https://eazzyconnect.com/</url>
+            <url>https://eazzyconnect.com</url>
         </site>
     </distributionManagement>
 
