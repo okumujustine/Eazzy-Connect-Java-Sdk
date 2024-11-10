@@ -5,8 +5,8 @@ Currently, it supports SMS messaging to Ugandan contacts only specifically to MT
 
 ## Important to Note
 
-- Currently supports Ugandan phone numbers only
-- API key must be properly configured in `.env` file
+- Currently supports Ugandan phone numbers only (MTN and Airtel)
+- API key must be added in the `.env` file
 - All phone numbers must include the country code (+256)
 
 ## Features
