@@ -19,7 +19,7 @@ public class Main {
         System.out.println(bulkSms);
 
         // Wallet actions
-        EazzyApiResponse balance = EazzyWallet.getBalance("WL-00004");
+        EazzyApiResponse balance = EazzyWallet.getBalance();
         System.out.println(balance);
     }
 }

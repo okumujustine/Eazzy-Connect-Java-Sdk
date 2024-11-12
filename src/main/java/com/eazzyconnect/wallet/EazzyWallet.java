@@ -13,11 +13,11 @@ import java.net.http.HttpResponse;
 public class EazzyWallet {
     private EazzyWallet() {}
 
-    private static final String BASE_API_URL = "https://eazzyconnect.com/api/v1/wallet/";
+    private static final String BASE_API_URL = "https://eazzyconnect.com/api/v1/wallet";
     private static final String API_KEY = Config.getEnv("API_KEY");
 
-    public static EazzyApiResponse getBalance(String walletId) {
-        String url = BASE_API_URL + walletId + "/account-balance";
+    public static EazzyApiResponse getBalance() {
+        String url = BASE_API_URL + "/account-balance";
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();

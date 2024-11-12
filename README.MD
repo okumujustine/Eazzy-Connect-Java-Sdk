@@ -18,15 +18,7 @@ Currently, it supports SMS messaging to Ugandan contacts only specifically to MT
 
 ## Installation
 
-Add the following dependency to your `pom.xml`:
-
-```xml
-<dependency>
-    <groupId>com.eazzyconnect</groupId>
-    <artifactId>eazzyconnectsdk</artifactId>
-    <version>0.1.0</version>
-</dependency>
-```
+Download the sdk from [here](https://central.sonatype.com/artifact/io.github.okumujustine/eazzyconnectsdk)
 
 ## Configuration
 
