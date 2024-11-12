@@ -24,7 +24,7 @@ Add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>com.eazzyconnect</groupId>
     <artifactId>eazzyconnectsdk</artifactId>
-    <version>0.1.3</version>
+    <version>0.1.0</version>
 </dependency>
 ```
 
